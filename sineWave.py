@@ -2,7 +2,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 
-def plot_sine_wave(frequency=5, duration=1, sample_rate=1000):
+def plot_sine_wave(frequency=10, duration=1, sample_rate=1000):
     time = np.arange(0, duration, 1/sample_rate)
     amplitude = np.sin(2 * np.pi * frequency * time)
 
